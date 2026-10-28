@@ -4,6 +4,12 @@ A public web app where a recruiter can **speak or type interview questions** and
 
 No login, no install, no API key entry for the recruiter. Voice runs in the browser; answers come from a FastAPI backend that uses Gemini or OpenAI when a key is configured, and a clearly labelled **demo mode** when it isn't.
 
+## Screenshots
+
+| Landing (desktop) | Interview (desktop) | Interview (mobile) |
+|---|---|---|
+| ![Landing page](docs/screenshots/landing-desktop.png) | ![Interview](docs/screenshots/interview-desktop.png) | ![Mobile](docs/screenshots/interview-mobile.png) |
+
 ## The problem it solves
 
 Recruiters want a fast, conversational way to learn about a candidate before a call. Written profiles are static; a chatbot that invents facts is worse than nothing. This app gives a spoken, interview-style conversation that answers directly, stays consistent across follow-ups, and says "that's not covered in my profile" instead of fabricating employers, metrics or stories.
